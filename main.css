@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Bungee', cursive;
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 body{
@@ -15,10 +13,18 @@ header{
     font-size: 14px;
     margin-bottom: 24px;
 }
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 form{
     display: flex;
-    width: 100%;
-    margin: 0 500px;
+    width: 30%;
+    max-width: 100%;
+    margin: 0 auto;
 }
 form input{
     background-color: #ffffff;
@@ -33,22 +39,23 @@ form button{
     background-color:#f0f0f0 ;
     width: 120px;
     height: 48px;
+    padding: 2px;
     margin-bottom: 24px;
     font-size: 24px;
     font-weight: bold;
     border: 2px solid #d8d8d8;
     cursor: pointer;
-    padding: 2px;
 }
+
 ul{
-    text-align: center;
-    list-style-position: inside;
-    font-size: 18px;
+    width: auto;
 }
+
 ul li{
     padding: 12px;
     cursor: pointer;
+    max-width: 100%;
+    list-style: inside;
     text-decoration: line-through;
-    width: 100%;
-    max-width: 100%; 
 }
+
